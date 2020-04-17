@@ -4,7 +4,6 @@ import std.conv;
 
 import bindbc.sdl;
 import bindbc.sdl.image;
-//import bindbc.sdl.bind.sdlvideo;
 
 import bindbc.opengl;
 
