@@ -106,6 +106,7 @@ void main()
     SDL_GL_SetSwapInterval(1); // Enable VSync
 
     // Creating a texture from SDL Surface
+    glEnable(GL_TEXTURE_2D);
     GLuint textureID = 0;
     glGenTextures(1, &textureID);
     glBindTexture(GL_TEXTURE_2D, textureID);
