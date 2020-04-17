@@ -1,0 +1,20 @@
+{
+  "name": "examplegl",
+  "description": "An example using bindbd ,SDL2 and OpenGL in d",
+  "authors": [
+  "Luis Panadero Guardeño"
+  ],
+  "copyright": "Copyright © 2020, Luis Panadero Guardeño",
+  "license": "public domain",
+  "dependencies": {
+      "bindbc-sdl": "~>0.16.0",
+      "bindbc-opengl": "~>0.12.0"
+    },
+  "versions": [
+    "BindSDL_Image",
+    "SDL_2010",
+    "SDLImage205",
+    "GL_AllowDeprecated"
+  ],
+  "targetPath": "bin"
+}
